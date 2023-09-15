@@ -16,7 +16,7 @@ Tool permitting to abuse Kernel read/write vulnerability in ECHOAC anti-cheat dr
 
 <div align="center">
   <a href="https://www.post.lu/business/produits-et-services/cyberforce" title="Follow">
-    <img width="300" src="https://de.wikipedia.org/wiki/Post_Luxembourg#/media/Datei%3APost_Luxembourg_Logo_2013.png">
+    <img width="150" src="https://upload.wikimedia.org/wikipedia/de/c/c6/Post_Luxembourg_Logo_2013.png">
   </a>
 </div>
 
