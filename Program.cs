@@ -15,8 +15,8 @@ namespace EchoDrv
         static void Help()
         {
             Console.WriteLine(@"" +
-                "--path - Path to driver sys file (default 'echo_driver.sys' into current folder)\n" +
-                "--load - Load embedded driver (no need to upload to disk)\n" +
+                "--path - Path to driver file\n" +
+                "--load - Load driver 'echo_driver.sys' [default from same folder]\n" +
                 "--add-protection [processID] - Enable PS_PROTECTED_LSA_LIGHT protection on process ID\n" +
                 "--remove-protection [processID] - Remove any protection on process ID\n" +
                 "--switch-priv [processID] [DEBUG|LOAD_DRIVER|IMPERSONATE|BACKUP|RESTORE|DELEGATE|TOKEN|TCB|ALL] [present|enabled|default] - Add/Remove priv from _TOKEN.Privilege\n" +
@@ -28,7 +28,7 @@ namespace EchoDrv
                 "--restore-callback [callback_type] [callback_index] [callback_address] - Restore callback address to specified callback array [process|thread|image]\n" +
                 "--disable-etwti - Disable ETWTI by setting ProviderEnableInfo to 0\n" +
                 "--enable-etwti - Enable ETWTI by setting ProviderEnableInfo to 1\n" +
-                "--unload - Unload driver, cleanup registry and remove local driver file\n" +
+                "--unload - Unload driver, cleanup registry and remove local driver file (use --path if driver not in same folder)\n" +
                 "--help, -h - Display help" +
                 "");
             return;
